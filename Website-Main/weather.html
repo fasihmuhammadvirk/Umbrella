@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head> <link rel="icon" href="weathersf.ico" type="image/icon" sizes="16x16"></head>
+<html lang="en"><br><br>
+<img src="weatherr.png"alt="weather"width="10%"height="10%" HSPACE="10"VSPACE="20"/>
+<title>Weather</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-light-blue  w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Weather Forecast</a>
+    <a target="_blank" href="https://www.accuweather.com/en/us/google-ca/94043/weather-forecast/74907_poi" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Accu Weather</a>
+    <a target="_blank" href="https://weather.com/en-PK/weather/today/l/PKXX0006:1:PK?Goto=Redirected" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">The Weather Channel</a>
+    <a target="_blank" href="https://www.wunderground.com/weather/pk/lahore?utm_source=HomeCard&utm_content=Button&cm_ven=HomeCardButton" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Weather Underground</a>
+    <a target="_blank" href="https://www.worldweatheronline.com/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">World Weather</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a target="_blank" href="https://www.accuweather.com/en/us/google-ca/94043/weather-forecast/74907_poi" class="w3-bar-item w3-button w3-padding-large">Accu Weather</a>
+    <a target="_blank" href="https://weather.com/en-PK/weather/today/l/PKXX0006:1:PK?Goto=Redirected" class="w3-bar-item w3-button w3-padding-large">The Weather Channel</a>
+    <a target="_blank" href="https://www.wunderground.com/weather/pk/lahore?utm_source=HomeCard&utm_content=Button&cm_ven=HomeCardButton" class="w3-bar-item w3-button w3-padding-large">Weather Underground</a>
+    <a target="_blank" href="https://www.worldweatheronline.com/" class="w3-bar-item w3-button w3-padding-large">World Weather</a>
+    
+  </div>
+</div>
+
+<header class="w3-container w3-light-blue w3-center" style="padding:128px 16px">
+  <h2 class="w3-margin w3-jumbo" style="font-family: Georgia, 'Times New Roman', Times, serif;">We Keep The Weather Outside!</h2>
+  <a href="index.html"><button class="w3-button w3-hover-white w3-black w3-padding-large w3-large w3-margin-top">Home</button></a>
+</header>
+
+<!-- First Grid -->
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;"><b>ACCU WEATHER</b></h1>
+      <a target="_blank" href="https://www.accuweather.com/en/us/google-ca/94043/weather-forecast/74907_poi"><img src="accu.png" alt="accu weather" width="35%" height="40%" ALIGN="right"HSPACE="15"VSPACE="70"></a><br>
+     <p style="font-size:20px" ALIGN="justify">
+      Accu Weather is an American media company that provides weather forecasts and warnings and additional weather products and services.
+      Accu Weather's forecasts and warning services are based on weather information derived from numerous sources.
+     </p><br>
+     <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;"><b>THE WEATHER CHANNEL</b></h1>
+     <a target="_blank" href="https://weather.com/en-PK/weather/today/l/PKXX0006:1:PK?Goto=Redirected"><img src="theweatherchannel.jpg" alt="The weather channel" width="35%" height="40%" ALIGN="right"HSPACE="15"VSPACE="56"></a><br>
+    <p style="font-size:20px" ALIGN="justify">
+      The Weather Channel (TWC) is an American pay television channel, who has been forecasting the weather since 1982.
+      The channel broadcasts weather forecasts and weather-related news and analysis, along with documentaries and entertainment programming related to weather.
+       </p><br>
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;"><b>WEATHER UNDERGROUND</b></h1>
+    <a target="_blank" href="https://www.wunderground.com/weather/pk/lahore?utm_source=HomeCard&utm_content=Button&cm_ven=HomeCardButton"><img src="weatherunderground.jpg" alt="Weather underground" width="35%" height="40%" ALIGN="right"HSPACE="15"VSPACE="45"></a><br>
+   <p style="font-size:20px" ALIGN="justify">
+    Weather Underground is a commercial weather service providing real-time weather information over the Internet.
+    It provides weather reports for most major cities across the world on its website and third-party sites.
+   </p><br>
+   <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;"><b>WORLD WEATHER ONLINE</b></h1>
+   <a target="_blank" href="https://www.worldweatheronline.com/"><img src="worldweatheronline.jpg" alt="WWO" width="35%" height="40%" ALIGN="right"HSPACE="15"VSPACE="80"></a><br>
+  <p style="font-size:20px" ALIGN="justify">
+    World Weather Online is dedicated to providing global weather forecast and weather content for websites, businesses and the travel industry.
+    They deliver accurate and up to date weather reports to users around the world whether they are looking for daily weather updates, surf reports,
+    ski forecasts or just have a passing interest in the weather.
+  </p><br>
+    </div>
+
+    <div class="w3-third w3-center">
+     
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+     
+    </div>
+
+    <div class="w3-twothird">
+      <h1>  </h1>
+      <h5 class="w3-padding-32"></h5>
+
+      <p class="w3-text-grey">
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-indigo w3-center w3-padding-64">
+    <h3 class="w3-margin w3-xlarge">It is best to read the weather forecast before praying for rain.</h3>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-light-grey w3-padding-64 w3-center w3-opacity">  
+  <b style="font-family: Georgia, 'Times New Roman', Times, serif;">Created by :</b><hr>
+  <p>Fasih Muhammad Virk</p>
+  <p>Malik Abdul Hadi</p>
+  <p>Amna Raheel</p>
+  <p>Abeer Ilyas</p>
+  <p>Shiza Batool</p>
+  </footer>
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+
+function myFunction() 
+{
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html

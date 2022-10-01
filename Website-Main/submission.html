@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>SUBMITTED</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style1.css">
+<link rel="icon" href="sent.png">
+<style>
+  .footer {
+    position: fixed;
+     left: 0%;
+     bottom: 0%;
+     width: 100%;
+     background-color:darkslateblue; 
+     color: white;
+     text-align: center;
+  }
+  h1, h2, h3{
+      text-align: center;
+  }
+  </style>
+  
+<body>
+<!-- Navbar (sit on top) -->
+<header class="w3-container w3-blue w3-center" style="padding:30px 16px" id="home">
+    <h1 class="w3-margin w3-jumbo">UMBRELLA</h1>
+    <a href="index.html"><button class="w3-button w3-hover-white w3-black w3-padding-large w3-large w3-margin-top">Go back to homepage</button></a>
+  </header>
+  
+<div class="w3-top w3-indigo  ">
+    
+    <a href="#home" class="w3-bar-item w3-hover-blue w3-button">HOME</a>  
+    </a>
+  </div>
+</div>
+   <!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <img class="logooo" src="Logoo.jpeg" alt="loading">
+      
+    </div>
+</div>
+     <div>
+         <h1><b>RESPONSE SUBMITTED</b></h1>>
+     </div>>
+     <div>
+         <h2>Your message has been recieved.</h2>
+     </div>
+     <div>
+         <h3>Thank you for your response.</h3>
+         <hr>
+     </div>
+<!-- Footer -->
+<div class="footer">
+  <a href="#home"  class="w3-button width w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+   <a href="https://www.facebook.com/" class="fa fa-facebook-official w3-hover-opacity"></a> 
+  <a  href="https://www.instagram.com/" class="fa fa-instagram w3-hover-opacity"></a>  
+  <a  href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat w3-hover-opacity"></a>
+  <a  href="https://www.pinterest.com/" class="fa fa-pinterest-p w3-hover-opacity"></a>
+  <a  href="https://twitter.com/" class="fa fa-twitter w3-hover-opacity"></a>
+ 
+</div> 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+</script>
+
+<footer>
+  <p style="text-align: center">Copyright 2020, all rights reserved by IST Students BSCS 01 B</p>
+</footer>
+
+</body>
+</html>
